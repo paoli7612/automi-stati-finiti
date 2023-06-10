@@ -1,0 +1,22 @@
+{
+    "name": "AFDtom",
+    "description": "",
+    "alphabet": ["t", "o", "m", "a", "s"],
+    "states": ["s", "T", "O", "M"],
+    "start_state": "s",
+    "final_states": ["M"],
+    "transitions": {
+        "s": {
+            "t": "T"
+        },
+        "T": {
+            "o": "O"
+        },
+        "O": {
+            "m": "M"
+        },
+        "M": {
+            "t": "T"
+        }
+    }
+}

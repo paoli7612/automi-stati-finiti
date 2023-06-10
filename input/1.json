@@ -1,6 +1,3 @@
-
-
-```json
 {
     "name": "AFD1",
     "description": "Automa che riconosce le stringhe (0 1* 0)",
@@ -18,6 +15,3 @@
         }
     }
 }
-```
-![1](out/AFD1.png)
-![2](out/AFDtom.png)
