@@ -1,9 +1,4 @@
 
-<table><tr><td>
-
-![soloCopieDiNumeri.png](out/soloCopieDiNumeri.png)
-
-</td><td>
 
 ```python
     AutomaDeterministico(
@@ -20,5 +15,4 @@
         }
     )
 ```
-
-</td></tr></table>
+![soloCopieDiNumeri.png](out/soloCopieDiNumeri.png)
