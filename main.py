@@ -92,3 +92,25 @@ if __name__ == '__main__':
             ('2', '1'): '0'             # ..solo se entra un altro 1 torniamo allo stato iniziale/finale
         }
     )
+
+    AutomaDeterministico(
+        name='AFD3',
+        alphabet = {'0', '1', '2'},             # alfabeto = 0 1 2
+        states = {'1', '2', '3', '4', '5', '6'},# stati = 1 2 3 4 5
+        start_state = '1',                      # stato iniziale = 1
+        final_states = {'4', '5', '6'},         # stati finali = C
+        transitions = {                         # transizioni: 
+            ('1', '0'): '3',
+            ('1', '1'): '5',
+            ('2', '0'): '5',
+            ('2', '1'): '4',
+            ('3', '0'): '4',
+            ('3', '1'): '2',
+            ('4', '0'): '5',
+            ('4', '1'): '5',
+            ('5', '0'): '3',
+            ('5', '1'): '6',
+            ('6', '0'): '6',
+            ('6', '1'): '6',
+        }
+    )

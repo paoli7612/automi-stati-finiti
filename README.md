@@ -16,3 +16,6 @@
     )
 ```
 ![soloCopieDiNumeri.png](out/soloCopieDiNumeri.png)
+![alt](out/AFD1.png)
+![alt](out/AFD2.png)
+![alt](out/AFD3.png)
